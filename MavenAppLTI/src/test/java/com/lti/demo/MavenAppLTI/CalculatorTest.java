@@ -14,7 +14,7 @@ public class CalculatorTest {
 	@Test
 	public void testAdd1() {
 		int res=new Calculator().add(10, 30);
-		assertEquals(30,res);
+		assertEquals(40,res);
 		
 	}
 	@Test
@@ -31,7 +31,7 @@ public class CalculatorTest {
 	}
 	@Test
 	public void prod1() {
-		int res=new Calculator().add(10, 30);
+		int res=new Calculator().prod(10, 30);
 		assertEquals(300,res);
 		
 	}
